@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Your Project, Our Priority"
-  image: "/images/banner.png"
+  image: "/images/planning-projects.jpg"
   button:
     enable: true
     label: "Get in contact today"

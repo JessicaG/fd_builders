@@ -8,6 +8,7 @@ testimonials:
   - name: "South Kensington Remodel"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
+    image: "/images/planning-projects.jpg"
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
   - name: "Notting Hill Repeat Customer"
