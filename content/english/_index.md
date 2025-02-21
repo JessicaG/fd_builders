@@ -31,5 +31,3 @@ features:
       label: "View our projects"
       link: "#"
 ---
-
-{{ partial "gallery.html" (dict "Dir" "images/gallery") }}
