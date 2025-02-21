@@ -7,6 +7,9 @@ banner:
     enable: true
     label: "Get in contact today"
     link: "/contact"
+---
+
+{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
 # Features
 features:
@@ -29,4 +32,3 @@ features:
       enable: false
       label: "View our projects"
       link: "#"
----
