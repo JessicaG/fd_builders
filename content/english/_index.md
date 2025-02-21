@@ -7,6 +7,9 @@ banner:
     enable: true
     label: "Get in contact today"
     link: "/contact"
+gallery:
+  enable: true
+  dir: "images/gallery"
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
     image: "/images/service-1.png"
@@ -29,4 +32,4 @@ features:
       link: "#"
 ---
 
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{ partial "gallery.html" (dict "Dir" "images/gallery") }}
