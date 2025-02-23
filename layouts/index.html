@@ -76,6 +76,11 @@
       </div>
     </section>
   {{ end }}
+
+  <!-- Gallery -->
+  {{ if .Params.gallery.enable }}
+    {{ partial "gallery.html" (dict "Dir" .Params.gallery.dir "class" "gallery" "height" "400px" "width" "400px" "loading" "lazy" "webp" true "resize" "fill" "command" "Resize" "option" "400x400" "zoomable" true) }}
+  {{ end }}
   <!-- /Features -->
 
   <!-- Testimonials -->

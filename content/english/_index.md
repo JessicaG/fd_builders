@@ -7,11 +7,9 @@ banner:
     enable: true
     label: "Get in contact today"
     link: "/contact"
----
-
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-# Features
+gallery:
+  enable: true
+  dir: "images/gallery"
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
     image: "/images/service-1.png"
@@ -27,8 +25,9 @@ features:
 
       - "**Full-Scale Home Remodels:**  From concept to completion, we manage every aspect of your full home remodel, ensuring a seamless and stress-free experience.  Your Vision, Our Craftsmanship creates the home you've always dreamed of."
 
-      - "**Custom Builds & New Home Construction:**  Building your dream home from the ground up?  We bring your vision to life with exceptional craftsmanship and attention to detail.  Your Vision, Our Craftsmanship builds legacies." 
+      - "**Custom Builds & New Home Construction:**  Building your dream home from the ground up?  We bring your vision to life with exceptional craftsmanship and attention to detail.  Your Vision, Our Craftsmanship builds legacies."
     button:
       enable: false
       label: "View our projects"
       link: "#"
+---
