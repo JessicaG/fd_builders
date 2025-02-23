@@ -5,6 +5,10 @@ description: "FD Construction projects"
 image: "/images/planning-projects.jpg"
 draft: false
 
+gallery:
+  enable: true
+  dir: "images/gallery"
+
 # Testimonials
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
@@ -13,5 +17,3 @@ features:
     bulletpoints:
       - "**Ensuring Seamless Deliveries:**  From widening a doorway to installing a custom-built door, we handle the small details that make a big difference, like ensuring your new couch fits perfectly through the entryway.  Your Vision, Our Craftsmanship makes moving day stress-free."
 ---
-
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
