@@ -4,11 +4,12 @@ meta_title: "Projects"
 description: "FD Construction projects"
 image: "/images/planning-projects.jpg"
 draft: false
-
 gallery:
   enable: true
   dir: "/images/gallery"
-
+slider:
+  enable: false
+  dir: "/images/slider"
 # Testimonials
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
