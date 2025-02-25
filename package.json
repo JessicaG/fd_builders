@@ -32,7 +32,6 @@
   },
   "postcss": {
     "plugins": {
-      "tailwindcss": {},
       "autoprefixer": {}
     }
   }

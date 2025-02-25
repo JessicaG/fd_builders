@@ -8,9 +8,9 @@ banner:
     label: "Get in contact today"
     link: "/contact"
 
-# slider:
-#   enable: true
-#   dir: "images/gallery"
+slider:
+  enable: true
+  dir: "/images/gallery"
 
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
