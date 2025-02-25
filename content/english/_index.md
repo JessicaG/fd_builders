@@ -7,11 +7,12 @@ banner:
     enable: true
     label: "Get in contact today"
     link: "/contact"
-
 slider:
   enable: true
+  dir: "/images/slider"
+gallery:
+  enable: false
   dir: "/images/gallery"
-
 features:
   - title: "FD Builders: Your Vision, Our Craftsmanship"
     image: "/images/service-1.png"
