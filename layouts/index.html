@@ -78,14 +78,13 @@
   {{ end }}
 
   <!-- Gallery -->
-  {{ if .Params.gallery.enable }}
-    {{ partial "gallery.html" (dict "Dir" .Params.gallery.dir "class" "gallery" "height" "400px" "width" "400px" "loading" "lazy" "webp" true "resize" "fill" "command" "Resize" "option" "400x400" "zoomable" true) }}
-  {{ end }}
-
+    {{ if .Params.gallery.enable }}
+      {{ partial "gallery.html" (dict "Dir" .Params.gallery.dir "Class" "gallery" "Height" "400px" "Width" "400px" "Loading" "lazy" "Webp" true "Resize" true "Command" "Resize" "Option" "400x400" "Zoomable" true) }}
+    {{ end }}
   <!-- Slider -->
     {{ if .Params.slider.enable }}
-    {{ partial "gallery.html" (dict "Dir" .Params.gallery.dir "class" "gallery" "height" "400px" "width" "400px" "loading" "lazy" "webp" true "resize" "fill" "command" "Resize" "option" "400x400" "zoomable" true) }}
-  {{ end }}
+      {{ partial "slider.html" (dict "Dir" .Params.slider.dir "Class" "gallery-slider" "Height" "400px" "Width" "400px" "Loading" "lazy" "Webp" true "Resize" true "Command" "Fit" "Option" "400x400" "Zoomable" true) }}
+    {{ end }}
 
   <!-- /Features -->
 
