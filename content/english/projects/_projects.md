@@ -7,7 +7,7 @@ draft: false
 
 gallery:
   enable: true
-  dir: "images/gallery"
+  dir: "/images/gallery"
 
 # Testimonials
 features:
